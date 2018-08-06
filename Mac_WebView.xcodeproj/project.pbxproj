@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F538AE582117EB220036D802 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F538AE572117EB220036D802 /* AppDelegate.m */; };
+		F538AE5A2117EB310036D802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F538AE592117EB310036D802 /* Assets.xcassets */; };
+		F538AE5D2117EB310036D802 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F538AE5B2117EB310036D802 /* MainMenu.xib */; };
+		F538AE602117EB310036D802 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F538AE5F2117EB310036D802 /* main.m */; };
+		F538AE692117EB8B0036D802 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F538AE682117EB8A0036D802 /* WebKit.framework */; };
+		F538AE6C2117EBB80036D802 /* XMPPSocketUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F538AE6B2117EBB80036D802 /* XMPPSocketUtil.m */; };
+		F538AE7C2117F8D80036D802 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = F538AE6E2117F8D80036D802 /* demo.html */; };
+		F538AE7D2117F8D80036D802 /* strophe-1.2.8.js in Resources */ = {isa = PBXBuildFile; fileRef = F538AE702117F8D80036D802 /* strophe-1.2.8.js */; };
+		F538AE7E2117F8D80036D802 /* strophe-1.2.8.min.js in Resources */ = {isa = PBXBuildFile; fileRef = F538AE712117F8D80036D802 /* strophe-1.2.8.min.js */; };
+		F538AE7F2117F8D80036D802 /* websdk.shim.js in Resources */ = {isa = PBXBuildFile; fileRef = F538AE732117F8D80036D802 /* websdk.shim.js */; };
+		F538AE802117F8D80036D802 /* gulpfile.js in Resources */ = {isa = PBXBuildFile; fileRef = F538AE742117F8D80036D802 /* gulpfile.js */; };
+		F538AE812117F8D80036D802 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = F538AE752117F8D80036D802 /* index.js */; };
+		F538AE822117F8D80036D802 /* connection.js in Resources */ = {isa = PBXBuildFile; fileRef = F538AE772117F8D80036D802 /* connection.js */; };
+		F538AE832117F8D80036D802 /* message.js in Resources */ = {isa = PBXBuildFile; fileRef = F538AE782117F8D80036D802 /* message.js */; };
+		F538AE842117F8D80036D802 /* queue.js in Resources */ = {isa = PBXBuildFile; fileRef = F538AE792117F8D80036D802 /* queue.js */; };
+		F538AE852117F8D80036D802 /* status.js in Resources */ = {isa = PBXBuildFile; fileRef = F538AE7A2117F8D80036D802 /* status.js */; };
+		F538AE862117F8D80036D802 /* utils.js in Resources */ = {isa = PBXBuildFile; fileRef = F538AE7B2117F8D80036D802 /* utils.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F538AE532117EB220036D802 /* Mac_WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mac_WebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F538AE562117EB220036D802 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F538AE572117EB220036D802 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F538AE592117EB310036D802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F538AE5C2117EB310036D802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F538AE5E2117EB310036D802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F538AE5F2117EB310036D802 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F538AE612117EB310036D802 /* Mac_WebView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mac_WebView.entitlements; sourceTree = "<group>"; };
+		F538AE682117EB8A0036D802 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F538AE6A2117EBB80036D802 /* XMPPSocketUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPPSocketUtil.h; sourceTree = "<group>"; };
+		F538AE6B2117EBB80036D802 /* XMPPSocketUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPSocketUtil.m; sourceTree = "<group>"; };
+		F538AE6E2117F8D80036D802 /* demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
+		F538AE702117F8D80036D802 /* strophe-1.2.8.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "strophe-1.2.8.js"; sourceTree = "<group>"; };
+		F538AE712117F8D80036D802 /* strophe-1.2.8.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "strophe-1.2.8.min.js"; sourceTree = "<group>"; };
+		F538AE722117F8D80036D802 /* strophe-1.2.8.min.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "strophe-1.2.8.min.js.map"; sourceTree = "<group>"; };
+		F538AE732117F8D80036D802 /* websdk.shim.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = websdk.shim.js; sourceTree = "<group>"; };
+		F538AE742117F8D80036D802 /* gulpfile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gulpfile.js; sourceTree = "<group>"; };
+		F538AE752117F8D80036D802 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		F538AE772117F8D80036D802 /* connection.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = connection.js; sourceTree = "<group>"; };
+		F538AE782117F8D80036D802 /* message.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = message.js; sourceTree = "<group>"; };
+		F538AE792117F8D80036D802 /* queue.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = queue.js; sourceTree = "<group>"; };
+		F538AE7A2117F8D80036D802 /* status.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = status.js; sourceTree = "<group>"; };
+		F538AE7B2117F8D80036D802 /* utils.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = utils.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F538AE502117EB220036D802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F538AE692117EB8B0036D802 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F538AE4A2117EB220036D802 = {
+			isa = PBXGroup;
+			children = (
+				F538AE552117EB220036D802 /* Mac_WebView */,
+				F538AE542117EB220036D802 /* Products */,
+				F538AE672117EB8A0036D802 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F538AE542117EB220036D802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F538AE532117EB220036D802 /* Mac_WebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F538AE552117EB220036D802 /* Mac_WebView */ = {
+			isa = PBXGroup;
+			children = (
+				F538AE562117EB220036D802 /* AppDelegate.h */,
+				F538AE572117EB220036D802 /* AppDelegate.m */,
+				F538AE6D2117F8D80036D802 /* sdk */,
+				F538AE6A2117EBB80036D802 /* XMPPSocketUtil.h */,
+				F538AE6B2117EBB80036D802 /* XMPPSocketUtil.m */,
+				F538AE592117EB310036D802 /* Assets.xcassets */,
+				F538AE5B2117EB310036D802 /* MainMenu.xib */,
+				F538AE5E2117EB310036D802 /* Info.plist */,
+				F538AE5F2117EB310036D802 /* main.m */,
+				F538AE612117EB310036D802 /* Mac_WebView.entitlements */,
+			);
+			path = Mac_WebView;
+			sourceTree = "<group>";
+		};
+		F538AE672117EB8A0036D802 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F538AE682117EB8A0036D802 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F538AE6D2117F8D80036D802 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				F538AE6E2117F8D80036D802 /* demo.html */,
+				F538AE6F2117F8D80036D802 /* dist */,
+				F538AE742117F8D80036D802 /* gulpfile.js */,
+				F538AE752117F8D80036D802 /* index.js */,
+				F538AE762117F8D80036D802 /* src */,
+			);
+			path = sdk;
+			sourceTree = "<group>";
+		};
+		F538AE6F2117F8D80036D802 /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				F538AE702117F8D80036D802 /* strophe-1.2.8.js */,
+				F538AE712117F8D80036D802 /* strophe-1.2.8.min.js */,
+				F538AE722117F8D80036D802 /* strophe-1.2.8.min.js.map */,
+				F538AE732117F8D80036D802 /* websdk.shim.js */,
+			);
+			path = dist;
+			sourceTree = "<group>";
+		};
+		F538AE762117F8D80036D802 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F538AE772117F8D80036D802 /* connection.js */,
+				F538AE782117F8D80036D802 /* message.js */,
+				F538AE792117F8D80036D802 /* queue.js */,
+				F538AE7A2117F8D80036D802 /* status.js */,
+				F538AE7B2117F8D80036D802 /* utils.js */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F538AE522117EB220036D802 /* Mac_WebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F538AE642117EB310036D802 /* Build configuration list for PBXNativeTarget "Mac_WebView" */;
+			buildPhases = (
+				F538AE4F2117EB220036D802 /* Sources */,
+				F538AE502117EB220036D802 /* Frameworks */,
+				F538AE512117EB220036D802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mac_WebView;
+			productName = Mac_WebView;
+			productReference = F538AE532117EB220036D802 /* Mac_WebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F538AE4B2117EB220036D802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Gome;
+				TargetAttributes = {
+					F538AE522117EB220036D802 = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F538AE4E2117EB220036D802 /* Build configuration list for PBXProject "Mac_WebView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F538AE4A2117EB220036D802;
+			productRefGroup = F538AE542117EB220036D802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F538AE522117EB220036D802 /* Mac_WebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F538AE512117EB220036D802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F538AE832117F8D80036D802 /* message.js in Resources */,
+				F538AE802117F8D80036D802 /* gulpfile.js in Resources */,
+				F538AE842117F8D80036D802 /* queue.js in Resources */,
+				F538AE7F2117F8D80036D802 /* websdk.shim.js in Resources */,
+				F538AE852117F8D80036D802 /* status.js in Resources */,
+				F538AE7D2117F8D80036D802 /* strophe-1.2.8.js in Resources */,
+				F538AE812117F8D80036D802 /* index.js in Resources */,
+				F538AE822117F8D80036D802 /* connection.js in Resources */,
+				F538AE7E2117F8D80036D802 /* strophe-1.2.8.min.js in Resources */,
+				F538AE5A2117EB310036D802 /* Assets.xcassets in Resources */,
+				F538AE7C2117F8D80036D802 /* demo.html in Resources */,
+				F538AE862117F8D80036D802 /* utils.js in Resources */,
+				F538AE5D2117EB310036D802 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F538AE4F2117EB220036D802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F538AE602117EB310036D802 /* main.m in Sources */,
+				F538AE582117EB220036D802 /* AppDelegate.m in Sources */,
+				F538AE6C2117EBB80036D802 /* XMPPSocketUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F538AE5B2117EB310036D802 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F538AE5C2117EB310036D802 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F538AE622117EB310036D802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F538AE632117EB310036D802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F538AE652117EB310036D802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mac_WebView/Mac_WebView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mac_WebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gome.Mac-WebView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F538AE662117EB310036D802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mac_WebView/Mac_WebView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mac_WebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gome.Mac-WebView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F538AE4E2117EB220036D802 /* Build configuration list for PBXProject "Mac_WebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F538AE622117EB310036D802 /* Debug */,
+				F538AE632117EB310036D802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F538AE642117EB310036D802 /* Build configuration list for PBXNativeTarget "Mac_WebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F538AE652117EB310036D802 /* Debug */,
+				F538AE662117EB310036D802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F538AE4B2117EB220036D802 /* Project object */;
+}
